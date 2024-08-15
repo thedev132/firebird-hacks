@@ -174,7 +174,7 @@ export function Component() {
 }
 
 
-function CalendarIcon(props) {
+function CalendarIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -197,7 +197,7 @@ function CalendarIcon(props) {
 }
 
 
-function ClockIcon(props) {
+function ClockIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -218,7 +218,7 @@ function ClockIcon(props) {
 }
 
 
-function CodeIcon(props) {
+function CodeIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -239,7 +239,7 @@ function CodeIcon(props) {
 }
 
 
-function LocateIcon(props) {
+function LocateIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -263,7 +263,7 @@ function LocateIcon(props) {
 }
 
 
-function TrophyIcon(props) {
+function TrophyIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -288,7 +288,7 @@ function TrophyIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

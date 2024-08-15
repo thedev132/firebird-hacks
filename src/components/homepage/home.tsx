@@ -360,7 +360,7 @@ export function HomeComponent() {
   )
 }
 
-function CalendarDaysIcon(props) {
+function CalendarDaysIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -389,7 +389,7 @@ function CalendarDaysIcon(props) {
 }
 
 
-function ClockIcon(props) {
+function ClockIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -410,7 +410,7 @@ function ClockIcon(props) {
 }
 
 
-function LightbulbIcon(props) {
+function LightbulbIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -432,7 +432,7 @@ function LightbulbIcon(props) {
 }
 
 
-function MapPinIcon(props) {
+function MapPinIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -453,7 +453,7 @@ function MapPinIcon(props) {
 }
 
 
-function RocketIcon(props) {
+function RocketIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -476,7 +476,7 @@ function RocketIcon(props) {
 }
 
 
-function TrophyIcon(props) {
+function TrophyIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
