@@ -27,7 +27,7 @@ export function Component() {
         <section id="hero" className="w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] border-b border-[#333]">
           <div className="container px-4 md:px-6 text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter">Firebird Hacks</h1>
-            <p className="mt-4 text-lg text-gray-400">September 21, 2024 | Fremont High School, Sunnyvale</p>
+            <p className="mt-4 text-lg text-gray-400">November 9th, 2024</p>
             <div className="mt-8">
               <Button className="bg-red-500 hover:bg-red-600 text-white"><Link href={"https://nsx3rfltsuj.typeform.com/to/NJF4Q7yX"}>Register Now</Link></Button>
             </div>
@@ -48,15 +48,15 @@ export function Component() {
         <ul className="space-y-2 text-gray-400">
           <li>
             <CalendarIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            September 21, 2024
+            November 9, 2024
           </li>
           <li>
             <LocateIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            Fremont High School, Sunnyvale
+            TBD
           </li>
           <li>
             <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            10:30 AM - 6:30 PM
+            10 AM - 7 PM
           </li>
           {/* <li>
             <UsersIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
@@ -71,59 +71,37 @@ export function Component() {
         <section id="schedule" className="w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] border-t border-[#333]">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold mb-8 text-center">Schedule</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="flex items-center justify-center gap-8">
               <div className="bg-[#222] rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-2">Day 1</h3>
+                {/* <h3 className="text-xl font-bold mb-2">Day 1</h3> */}
                 <ul className="space-y-2 text-gray-400">
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    9:00 AM - 10:00 AM: Registration
+                    10:30-11 AM: Entry
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    10:00 AM - 11:00 AM: Opening Ceremony
+                    11 AM - 11:30 AM: Opening Ceremony
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    11:00 AM - 6:00 PM: Hacking
+                    11:30 AM: Hacking Begins
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    6:00 PM - 8:00 PM: Dinner
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-[#222] rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-2">Day 2</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    9:00 AM - 6:00 PM: Hacking
+                    12:00 AM - 12:30 PM: Web Dev Workshop 
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    6:00 PM - 8:00 PM: Dinner
+                    5:00 PM: Hacking Ends
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    8:00 PM - 10:00 PM: Demos
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-[#222] rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-2">Day 3</h3>
-                <ul className="space-y-2 text-gray-400">
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    9:00 AM - 11:00 AM: Hacking
+                    5:30-6:00 PM: Judging Begins
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    11:00 AM - 12:00 PM: Judging
-                  </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    12:00 PM - 1:00 PM: Closing Ceremony
+                    6:00-6:30 PM: Closing Ceremony
                   </li>
                 </ul>
               </div>
