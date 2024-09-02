@@ -25,7 +25,7 @@ export function HomeComponent() {
         </nav>
       </header>
       <main>
-        <section className="py-20 px-6 flex items-center justify-between">
+        <section className="py-20 px-6 flex items-center justify-around">
           <div className="max-w-md space-y-4">
             <h2 className="text-4xl font-bold">Empowering the Next Generation of Innovators</h2>
             <p className="text-lg">Join us at our exciting high school hackathons and unleash your creativity.</p>
