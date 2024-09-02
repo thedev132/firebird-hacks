@@ -89,7 +89,7 @@ export function Component() {
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    12:00 AM - 12:30 PM: Web Dev Workshop 
+                    12:00 PM - 12:30 PM: Web Dev Workshop 
                   </li>
                   <li>
                     <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
@@ -115,17 +115,17 @@ export function Component() {
               <div className="bg-[#222] rounded-lg p-6 text-center">
                 <TrophyIcon className="w-12 h-12 mx-auto mb-4 text-red-500" />
                 <h3 className="text-xl font-bold mb-2">1st Place</h3>
-                <p className="text-gray-400">$5,000 Cash Prize</p>
+                <p className="text-gray-400">TBD</p>
               </div>
               <div className="bg-[#222] rounded-lg p-6 text-center">
                 <TrophyIcon className="w-12 h-12 mx-auto mb-4 text-red-500" />
                 <h3 className="text-xl font-bold mb-2">2nd Place</h3>
-                <p className="text-gray-400">$3,000 Cash Prize</p>
+                <p className="text-gray-400">TBD</p>
               </div>
               <div className="bg-[#222] rounded-lg p-6 text-center">
                 <TrophyIcon className="w-12 h-12 mx-auto mb-4 text-red-500" />
                 <h3 className="text-xl font-bold mb-2">3rd Place</h3>
-                <p className="text-gray-400">$1,000 Cash Prize</p>
+                <p className="text-gray-400">TBD</p>
               </div>
             </div>
           </div>
