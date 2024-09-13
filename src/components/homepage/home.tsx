@@ -7,7 +7,7 @@ import { Envelope, Discord, Linkedin } from "react-bootstrap-icons"
 export function HomeComponent() {
   return (
     <div className="bg-[#000] text-white">
-      <header className="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-red-500 to-orange-500 text-white">
+      <header className="flex items-center justify-center px-6 py-4 bg-gradient-to-r from-red-500 to-orange-500 text-white">
         <h1 className="text-3xl font-bold">Firebird Hacks</h1>
         <nav className="flex gap-6">
           <Link href="#" className="hover:underline" prefetch={false}>
@@ -112,15 +112,15 @@ export function HomeComponent() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <CalendarDaysIcon className="h-5 w-5 text-[#fff]" />
-                      <span>November 9th, 2024</span>
+                      <span>December 23rd, 2024</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <ClockIcon className="h-5 w-5 text-[#fff]" />
-                      <span>10 AM - 7 PM</span>
+                      <span>9:30 AM - 5:30 PM</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPinIcon className="h-5 w-5 text-[#fff]" />
-                      <span>TBD</span>
+                      <a href="https://www.google.com/maps/place/Google+Visitor+Experience/@37.4215862,-122.0832179,17z/data=!3m1!4b1!4m6!3m5!1s0x808fb9f9291ff8a1:0x223be8ea8c995cc4!8m2!3d37.4215862!4d-122.0806376!16s%2Fg%2F11l5b0m4gc"><span>Google Visitor Experience</span></a>
                     </div>
                   </div>
                 </CardContent>

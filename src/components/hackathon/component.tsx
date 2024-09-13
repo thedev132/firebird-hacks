@@ -23,92 +23,101 @@ export function Component() {
 
         </nav>
       </header>
-      <main className="flex-1">
-        <section id="hero" className="w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] border-b border-[#333]">
-          <div className="container px-4 md:px-6 text-center">
+      <main className="flex flex-col items-center justify-center">
+        <section id="hero" className="flex w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] border-b border-[#333] items-center justify-center">
+          <div className="container w-full px-4 md:px-6 text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter">Firebird Hacks</h1>
-            <p className="mt-4 text-lg text-gray-400">November 9th, 2024</p>
+            <p className="mt-4 text-lg text-gray-400">December 23th, 2024</p>
             <div className="mt-8">
               <Button className="bg-red-500 hover:bg-red-600 text-white"><Link href={"https://nsx3rfltsuj.typeform.com/to/NJF4Q7yX"}>Register Now</Link></Button>
             </div>
           </div>
         </section>
         <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] flex items-center justify-center">
-  <div className="container px-4 md:px-6">
-    <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 gap-8">
-      <div>
-        <h2 className="text-3xl font-bold mb-4">About the Hackathon</h2>
-        <p className="text-gray-400">
-          Join us for an exciting 8 hour hackathon where developers, designers, and entrepreneurs come together
-          to build innovative solutions. Compete for amazing prizes and network with industry leaders.
-        </p>
-      </div>
-      <div>
-        <h2 className="text-3xl font-bold mb-4">Event Details</h2>
-        <ul className="space-y-2 text-gray-400">
-          <li>
-            <CalendarIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            November 9, 2024
-          </li>
-          <li>
-            <LocateIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            TBD
-          </li>
-          <li>
-            <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            10 AM - 7 PM
-          </li>
-          {/* <li>
-            <UsersIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-            500+ Participants
-          </li> */}
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+        <div className="container px-4 md:px-6">
+          <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h2 className="text-3xl font-bold mb-4">About the Hackathon</h2>
+              <p className="text-gray-400">
+                Join us for an exciting 8 hour hackathon where developers, designers, and entrepreneurs come together
+                to build innovative solutions. Compete for amazing prizes and network with industry leaders.
+              </p>
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold mb-4">Event Details</h2>
+              <ul className="space-y-2 text-gray-400">
+                <li>
+                  <CalendarIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                  December 23rd, 2024
+                </li>
+                <li>
+                  <LocateIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                  TBD
+                </li>
+                <li>
+                  <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                  9:30 AM - 6:30 PM
+                </li>
+                {/* <li>
+                  <UsersIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                  500+ Participants
+                </li> */}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="schedule" className="w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] border-t border-[#333]">
+        <section id="schedule" className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a] border-t border-[#333]">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold mb-8 text-center">Schedule</h2>
             <div className="flex items-center justify-center gap-8">
               <div className="bg-[#222] rounded-lg p-6">
                 {/* <h3 className="text-xl font-bold mb-2">Day 1</h3> */}
                 <ul className="space-y-2 text-gray-400">
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    10:30-11 AM: Entry
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500 " />
+                    9:30-10 AM: Entry
                   </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    11 AM - 11:30 AM: Opening Ceremony
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    10:30 AM - 11 AM: Opening Ceremony
                   </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    11:30 AM: Hacking Begins
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    11 AM: Hacking Begins
                   </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    12:00 PM - 12:30 PM: Web Dev Workshop 
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    11:30 PM - 12:00 PM: Web Dev Workshop 
                   </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    5:00 PM: Hacking Ends
+                </ul>
+              </div>
+              <div className="bg-[#222] rounded-lg p-6">
+                {/* <h3 className="text-xl font-bold mb-2">Day 1</h3> */}
+                <ul className="space-y-2 text-gray-400">
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    4:30 PM: Hacking Ends
                   </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    5:30-6:00 PM: Judging Begins
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    4:30-5:00 PM: Judging Begins
                   </li>
-                  <li>
-                    <ClockIcon className="w-5 h-5 mr-2 inline-block text-red-500" />
-                    6:00-6:30 PM: Closing Ceremony
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    5:00-5:20 PM: Closing Ceremony
+                  </li>
+                  <li className="text-lg">
+                    <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
+                    5:20-5:30 PM: Clean Up
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </section>
-        <section id="prizes" className="w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a]">
+        <section id="prizes" className="flex items-center justify-center w-full py-12 md:py-24 lg:py-32 bg-[#1a1a1a]">
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold mb-8 text-center">Prizes</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
