@@ -29,7 +29,7 @@ export function Component() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter">Firebird Hacks</h1>
             <p className="mt-4 text-lg text-gray-400">December 23th, 2024</p>
             <div className="mt-8">
-              <Button className="bg-red-500 hover:bg-red-600 text-white"><Link href={"https://nsx3rfltsuj.typeform.com/to/NJF4Q7yX"}>Register Now</Link></Button>
+              <Button className="bg-red-500 hover:bg-red-600 text-white"><Link href={"https://forms.gle/95CpFK6tA2X7qYfEA"}>Register Now</Link></Button>
             </div>
           </div>
         </section>
