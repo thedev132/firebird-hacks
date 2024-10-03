@@ -7,7 +7,7 @@ import { Envelope, Discord, Linkedin } from "react-bootstrap-icons"
 export function HomeComponent() {
   return (
     <div className="bg-[#000] text-white">
-      <header className="flex items-center justify-center px-6 py-4 bg-gradient-to-r from-red-500 to-orange-500 text-white">
+      <header className="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-red-500 to-orange-500 text-white">
         <h1 className="text-3xl font-bold">Firebird Hacks</h1>
         <nav className="flex gap-6">
           <Link href="#" className="hover:underline" prefetch={false}>
@@ -244,8 +244,8 @@ export function HomeComponent() {
             </div>
           </div>
         </section> */}
-        <section>
-          <div id='contact' className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 bg-[#111]">
+        <section className="bg-[#111]">
+          <div id='contact' className="py-8 px-4 mx-auto w-max max-w-screen-xl lg:py-16 lg:px-6 bg-[#111]">
               <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
                   <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
                   <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind</p>
@@ -253,7 +253,7 @@ export function HomeComponent() {
               <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                       <div className="items-center rounded-lg shadow sm:flex  bg-[#222] dark:border-gray-700">
                         <a href="#">
-                            <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/mohamad.jpg" alt="Jese Avatar"/>
+                            <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/mohamad.jpg" alt=""/>
                         </a>
                       <div className="p-5">
                           <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -298,7 +298,7 @@ export function HomeComponent() {
                   </div> 
                   <div className="items-center rounded-lg shadow sm:flex  bg-[#222] dark:border-gray-700">
                       <a href="#">
-                          <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/aadi.jpg" alt="Jese Avatar"/>
+                          <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/aadi.jpg" alt=""/>
                       </a>
                       <div className="p-5">
                           <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white ">

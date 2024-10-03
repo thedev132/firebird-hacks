@@ -52,11 +52,11 @@ export function Component() {
                 </li>
                 <li>
                   <LocateIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                  TBD
+                  Google Visitor Experience
                 </li>
                 <li>
                   <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                  9:30 AM - 6:30 PM
+                  9:30 AM - 5:30 PM
                 </li>
                 {/* <li>
                   <UsersIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
@@ -77,19 +77,19 @@ export function Component() {
                 <ul className="space-y-2 text-gray-400">
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500 " />
-                    9:30-10 AM: Entry
+                    9:30-10 AM: Entry & Breakfast
                   </li>
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    10:30 AM - 11 AM: Opening Ceremony
+                    10 AM - 10:30 AM: Opening Ceremony
                   </li>
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    11 AM: Hacking Begins
+                    10:45 AM: Hacking Begins
                   </li>
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    11:30 PM - 12:00 PM: Web Dev Workshop 
+                    11:30 PM - 12:30 PM: Web Dev Workshop 
                   </li>
                 </ul>
               </div>
@@ -98,20 +98,21 @@ export function Component() {
                 <ul className="space-y-2 text-gray-400">
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    4:30 PM: Hacking Ends
+                    12:30-1:30 PM: Lunch & Networking
                   </li>
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    4:30-5:00 PM: Judging Begins
+                    4:15 PM: Hacking Ends
                   </li>
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    5:00-5:20 PM: Closing Ceremony
+                    4:15-5:00 PM: Judging Begins
                   </li>
                   <li className="text-lg">
                     <ClockIcon className="w-6 h-6 mr-2 inline-block text-red-500" />
-                    5:20-5:30 PM: Clean Up
+                    5:00-5:30 PM: Closing Remarks
                   </li>
+
                 </ul>
               </div>
             </div>
